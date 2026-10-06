@@ -1,0 +1,15 @@
+{
+  "name": "@mkcfdc/reolink-baichuan",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "test": "deno test -A",
+    "check": "deno check src/mod.ts examples/info.ts examples/preview.ts",
+    "info": "deno run -A examples/info.ts",
+    "preview": "deno run -A examples/preview.ts"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
